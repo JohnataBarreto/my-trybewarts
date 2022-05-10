@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  font-size: 2rem;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+  padding: 10px;
+}
+
+.trybewarts-login {
+  display: flex;
+  width: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.trybewarts-login input {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-right: 10px;
+  line-height: 20px;
+  font-size: 10px;
+
+}
+
+.btn-entrar {
+  background-color: rgb(73, 82, 126);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  border: none;
+}
+
+main {
+  display: flex;
+  margin-left: 10%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: flex-end;
+  margin-left: 20%;
+
+}
+
+#p1 {
+  width: 100%;
+  display: flex;
+}
+
+#p2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 300px;
+  margin-left: 10%;
+}
+
+#p3 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 10%;
+}
+
+#p4 {
+  display: flex;
+  flex-direction: column;
+}
+
+#p5 {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border-top: 1px dashed rgb(50, 167, 145) solid;
+}
+
+#input-name {
+  width: 45%;
+  margin: 5px;
+}
+
+#input-lastname {
+  width: 45%;
+  margin: 5px;
+}
+
+#input-email {
+  width: 45%;
+  margin: 5px;
+}
+
+#house {
+  width: 40%;
+  margin: 5px;
+  padding-left: 8px;
+}
+
+fieldset {
+  border: none;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.rate-container {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(152, 153, 153);
+  width: 100%;
+}
+
+#submit-btn {
+  padding: 10px;
+  margin-top: 4%;
+  border-radius: 4px;
+  width: 100%;
+  background-color: rgb(73, 82, 126);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(53, 51, 51);
+  font-size: 10px;
+  font-style: italic;
+  color: aliceblue;
+  padding: 20px;
+}
+
+#agreement {
+  width: 30px;
+}
